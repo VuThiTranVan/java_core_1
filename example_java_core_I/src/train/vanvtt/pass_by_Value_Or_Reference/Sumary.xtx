@@ -1,0 +1,15 @@
+(*) [Trong Java chỉ truyền tham trị - không truyền tham chiếu]
+- Có thể mọi người sẽ nghe đến việc java có cho phép truyền tham chiếu - Nhưng thực ra, bản chất thì nó cũng chỉ là truyền theo kiểu tham trị
+
+(*) Bạn nghe đến khái niệm truyền tham chiếu khi mà sử dụng Object làm tham số cho method
+Nhưng bản chất của việc đó là:
+2 biến gồm A và tham số B đều cùng nhau tham chiếu đến cùng 1 object
+Nên mọi sự thay đổi trên object B đều cũng sẽ áp dụng trên A.
+Sau khi kết thúc method thì dữ liệu trên dùng nhớ của A tham chiếu tới sẽ bị thay đổi theo các thao tác mà chngs ta đã dùng để thay đổi dữ liệu trên vùng nhớ dc B tham chiếu tới.
+
+Khi truyền 1 tham số kiểu object vào method, tức là ta đã truyền Giá trị của Object đó để sử dụng giá trị đó bên trong method,
+chứ không phải truyền  đối tượng được biến Object này tham chiếu tới. Hay nói túm lại là giá trị của biến kiểu object là địa chỉ của object mà biến đó tham chiếu đến.
+(nghĩa là object A và cả tham số B cùng nhau trỏ tham chiếu đến 1 vùng giá trị)
+
+ Cho nên lúc này việc thay đổi giá trị của biến kiểu object này bằng cách gán cho một biến kiểu object khác thì object được tham chiếu đến lúc đầu không bị ảnh hưởng,
+ chỉ khi sử dụng các method của chính các object được tham chiếu này thì dữ liệu của object mới được thay đổi sau khi ra khỏi hàm.
