@@ -10,6 +10,7 @@ Note: - Tập trung vào các chương: 4, 5, 6, 11, 12, 13, 14 - Bỏ qua các 
 2. [Setting]
 + Jdk 1.8
 (*) Settings [JAVA_HOME] Enviroment
+
 Steps:
      https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
      https://www.guru99.com/install-java.html
