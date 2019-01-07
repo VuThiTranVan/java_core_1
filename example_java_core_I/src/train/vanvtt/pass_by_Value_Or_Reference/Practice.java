@@ -24,7 +24,7 @@ public class Practice {
 		System.out.println("before change " + practice.data);
 
 		practice.changeByValue(500); // passing value
-		System.out.println("after change " + practice.data);
+		System.out.println("after change " + practice.data);// 600
 		System.out.println("\n\t____________");
 
 		
