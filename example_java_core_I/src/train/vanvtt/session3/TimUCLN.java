@@ -16,6 +16,7 @@ public class TimUCLN {
 		System.out.println("Nhập vào số thứ hai: ");
 		secondNumber = scanner.nextInt();
 
+		// kiem tra viec 2 so nhap vao phai duong, neu ko yeu cau nhap lai
 		while ((firstNumber <= 0) || (secondNumber <= 0)) {
 			System.out.println("Nhập lại hai số nguyên dương!");
 			System.out.println("Nhập vào số thứ nhất: ");
