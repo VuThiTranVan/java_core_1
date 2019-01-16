@@ -21,9 +21,15 @@ public class Dev extends NhanVien {
 	public void setNgonNgu(String ngonNgu) {
 		this.ngonNgu = ngonNgu;
 	}
-	
+
 	@Override
 	protected String boPhan() {
-		return "Phát triển";
+		return "Lam viec tai bo phan Phát triển";
+	}
+
+	@Override
+	public void xuatThongTin() {
+		super.xuatThongTin();
+		System.out.println("Ngon ngu: " + ngonNgu);
 	}
 }

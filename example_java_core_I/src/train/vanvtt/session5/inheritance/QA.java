@@ -16,10 +16,19 @@ public class QA extends NhanVien {
 	public void setTestAutomation(boolean isTestAutomation) {
 		this.isTestAutomation = isTestAutomation;
 	}
-	
+
 	@Override
 	protected String boPhan() {
 		return "Kiểm thử";
+	}
+
+	@Override
+	public void xuatThongTin() {
+		super.xuatThongTin();
+		if (isTestAutomation)
+			System.out.println("Co test automation");
+		else
+			System.out.println("Chi test manual");
 	}
 
 }
