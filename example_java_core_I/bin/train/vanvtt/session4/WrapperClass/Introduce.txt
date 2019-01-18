@@ -1,0 +1,12 @@
+Lớp Wrapper chỉ là một cái tên chung cho rất nhiều lớp khác nhau
+
+Java có 8 kiểu dữ liệu nguyên thủy, nên cũng sẽ có 8 lớp Wrapper cho từng kiểu nguyên thủy này. Chúng bao gồm.
+
+– Lớp Byte là lớp Wrapper cho kiểu dữ liệu byte.
+– Lớp Short là lớp Wrapper cho kiểu dữ liệu short.
+– Lớp Integer là lớp Wrapper cho kiểu dữ liệu int.
+– Lớp Long là lớp Wrapper cho kiểu dữ liệu long.
+– Lớp Float là lớp Wrapper cho kiểu dữ liệu float.
+– Lớp Double là lớp Wrapper cho kiểu dữ liệu double.
+– Lớp Character là lớp Wrapper cho kiểu dữ liệu char.
+– Lớp Boolean là lớp Wrapper cho kiểu dữ liệu boolean.
