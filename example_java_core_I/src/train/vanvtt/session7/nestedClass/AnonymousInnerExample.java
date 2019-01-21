@@ -10,9 +10,9 @@ public class AnonymousInnerExample {
 
 		// phan code khai bao va khoi tao mot lop Inner Class
 		ANhanVien nhanVien = new ANhanVien("vanvtt", "001") {
-			public String boPhan() {
-				return "dev";
-			}
+//			public String boPhan() {
+//				return "dev";
+//			}
 
 			@Override
 			public String myClass() {
