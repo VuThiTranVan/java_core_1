@@ -1,6 +1,6 @@
-package Employee;
+package train.vanvtt.session9.managementEmployee;
 
-public class Developer extends Employee{
+public class Developer extends Employee {
 	private String language;
 
 	public String getLanguage() {
@@ -16,8 +16,7 @@ public class Developer extends Employee{
 		this.language = language;
 	}
 
-	
-	 float getPaymentAmount() {
+	float getPaymentAmount() {
 		return this.getSalary() * 10 / 100 + getSalary();
 	}
 
@@ -28,9 +27,7 @@ public class Developer extends Employee{
 		System.out.println("gender = " + getGender());
 		System.out.println("address = " + getAddress());
 		System.out.println("salary = " + getSalary());
-		System.out.println("language = " + getLanguage());	
-		System.out.println("");
+		System.out.println("language = " + getLanguage());
 	}
-	
 
 }
